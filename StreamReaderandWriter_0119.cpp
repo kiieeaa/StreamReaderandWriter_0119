@@ -40,5 +40,15 @@ int main() {
 	{
 
 		while (getline(infile, baris))
+		{
+
+			cout << baris << '\n';
+		}
+
+		infile.close();
 	}
+
+	else cout << "unable to open file";
+
+	return 0;
 }
